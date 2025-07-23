@@ -1,6 +1,11 @@
 package org.example;
+
 import org.junit.jupiter.api.Test;
+
 import java.util.function.Consumer;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class StringProcessorOneTest {
 
     @Test
@@ -10,12 +15,11 @@ public class StringProcessorOneTest {
         Consumer<String> outputConsumer = s -> output.append(s).append("\n");
 
         // 创建处理器
-        StringProcessor processor = new IterativeStringProcessor();
+        CrushStrategy crushStrategy = new IterativeCrushStrategy();
 
         // 执行处理
-        processor.process("abvvvbad", outputConsumer);
+        crushStrategy.process("abcccbad", outputConsumer);
         // 处理完成后打印收集的所有内容
         System.out.println(output.toString());
     }
-
 }

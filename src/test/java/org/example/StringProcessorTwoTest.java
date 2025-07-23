@@ -1,11 +1,6 @@
 package org.example;
-
 import org.junit.jupiter.api.Test;
-
 import java.util.function.Consumer;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 public class StringProcessorTwoTest {
 
     @Test
@@ -15,11 +10,12 @@ public class StringProcessorTwoTest {
         Consumer<String> outputConsumer = s -> output.append(s).append("\n");
 
         // 创建处理器
-        CrushStrategy crushStrategy = new IterativeCrushStrategy();
+        StringProcessor processor = new IterativeStringProcessor();
 
         // 执行处理
-        crushStrategy.process("abcccbad", outputConsumer);
+        processor.process("abvvvbad", outputConsumer);
         // 处理完成后打印收集的所有内容
         System.out.println(output.toString());
     }
+
 }
