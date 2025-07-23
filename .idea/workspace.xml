@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="511340f1-6c4a-4e48-8c97-d1a907f80b9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/v1/StringHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/v2/StringProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CrushStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/v1/CrushStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IterativeCrushStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/v1/IterativeCrushStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IterativeStringProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/v1/IterativeStringProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/v2/StringProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringProcessorOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/v1/StringProcessorOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringProcessorTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/v1/StringProcessorTwoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IterativeCrushStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IterativeCrushStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IterativeStringProcessor$ReplacementRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IterativeStringProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IterativeStringProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeCrushStrategy.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeCrushStrategy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeCrushStrategy.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeCrushStrategy.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeStringProcessor$ReplacementRule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeStringProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeStringProcessor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeStringProcessor.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeStringProcessor.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-07-23T21-19-33_405.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.OneCodingTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.StringProcessorOneTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.StringProcessorOneTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.StringProcessorTwoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.StringProcessorTwoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.TwoCodingTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.OneCodingTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.StringProcessorOneTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.StringProcessorOneTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.StringProcessorTwoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.StringProcessorTwoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.TwoCodingTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/codingTest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/StringProcessorOneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/StringProcessorOneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/StringProcessorTwoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/StringProcessorTwoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +99,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.v2" />
+      <recent name="org.example.v1" />
       <recent name="org.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -70,49 +111,50 @@
       <recent name="D:\Drivers\codingTest\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="OneCodingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringProcessorTest.testReplaceStrategy">
+    <configuration name="StringProcessorOneTest.testOneProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StringProcessorTwoTest" />
+          <option name="PATTERN" value="org.example.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.OneCodingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneCodingTest.oneCodingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.StringProcessorTwoTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.OneCodingTest" />
-      <option name="METHOD_NAME" value="oneCodingTest" />
+      <option name="PACKAGE_NAME" value="org.example.v1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.v1.StringProcessorOneTest" />
+      <option name="METHOD_NAME" value="testOneProcess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringProcessorOneTest.testTwoProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringProcessorTest.testRemoveStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StringProcessorTwoTest" />
+          <option name="PATTERN" value="org.example.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StringProcessorOneTest" />
-      <option name="METHOD_NAME" value="testTwoProcess" />
+      <option name="PACKAGE_NAME" value="org.example.v2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.v2.StringProcessorTest" />
+      <option name="METHOD_NAME" value="testRemoveStrategy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringProcessorTest.testReplaceStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.v2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.v2.StringProcessorTest" />
+      <option name="METHOD_NAME" value="testReplaceStrategy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,29 +164,29 @@
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StringProcessorTwoTest" />
+          <option name="PATTERN" value="org.example.v1.StringProcessorTwoTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StringProcessorTwoTest" />
+      <option name="PACKAGE_NAME" value="org.example.v1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.v1.StringProcessorTwoTest" />
       <option name="METHOD_NAME" value="testOneProcess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringProcessorTwoTest.testProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringProcessorTwoTest.testTwoProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StringProcessorTwoTest" />
+          <option name="PATTERN" value="org.example.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StringProcessorTwoTest" />
-      <option name="METHOD_NAME" value="testProcess" />
+      <option name="PACKAGE_NAME" value="org.example.v1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.v1.StringProcessorTwoTest" />
+      <option name="METHOD_NAME" value="testTwoProcess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringProcessorTest.testReplaceStrategy" />
+        <item itemvalue="JUnit.StringProcessorTest.testRemoveStrategy" />
+        <item itemvalue="JUnit.StringProcessorTwoTest.testTwoProcess" />
+        <item itemvalue="JUnit.StringProcessorOneTest.testOneProcess" />
         <item itemvalue="JUnit.StringProcessorTwoTest.testOneProcess" />
-        <item itemvalue="JUnit.StringProcessorOneTest.testTwoProcess" />
-        <item itemvalue="JUnit.StringProcessorTwoTest.testProcess" />
-        <item itemvalue="JUnit.OneCodingTest.oneCodingTest" />
-        <item itemvalue="JUnit.OneCodingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +212,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753191123596</updated>
-      <workItem from="1753191126289" duration="12613000" />
+      <workItem from="1753191126289" duration="15983000" />
     </task>
     <servers />
   </component>
@@ -182,46 +224,50 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1753276546950" />
-    <state x="548" y="267" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1753274396544">
+    <state x="548" y="267" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1753284483154">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="548" y="267" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1753274396544" />
+    <state x="548" y="267" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1753284483154" />
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1753283135013">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1753283135013" />
     <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1753193072062">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1753193072062" />
-    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1753279979163">
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1753283958245">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753279979163" />
-    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1753279979162">
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753283958245" />
+    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1753283958245">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1753279979162" />
-    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1753279979162">
+    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1753283958245" />
+    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1753283958244">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1753279979162" />
-    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1753279979162">
+    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1753283958244" />
+    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1753283958245">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1753279979162" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1753277789157">
+    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1753283958245" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1753282156484">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753277789157" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1753277789156">
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753282156484" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1753282156484">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1753277789156" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1753277789156">
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1753282156484" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1753282156484">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1753277789156" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1753277789157">
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1753282156484" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1753282156484">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1753277789157" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1753282156484" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1753277304909">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

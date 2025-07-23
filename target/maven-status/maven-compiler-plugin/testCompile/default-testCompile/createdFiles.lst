@@ -1,9 +1,3 @@
-org\example\StringProcessorOneTest.class
-org\example\TwoCodingTest$StringProcessor.class
-org\example\TwoCodingTest.class
-org\example\TwoCodingTest$IterativeStringProcessor.class
-org\example\OneCodingTest$CrushStrategy.class
-org\example\OneCodingTest.class
-org\example\OneCodingTest$IterativeCrushStrategy.class
-org\example\StringProcessorTwoTest.class
-org\example\TwoCodingTest$ReplacementRule.class
+org\example\v2\StringProcessorTest.class
+org\example\v1\StringProcessorTwoTest.class
+org\example\v1\StringProcessorOneTest.class

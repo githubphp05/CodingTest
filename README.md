@@ -4,6 +4,7 @@
 3. 考虑采用适当的设计模式
 5. 使用 Java8 或更高版本的一些新功能
 
+本项目有两个版本代码v1和v2，v2版本的代码量更少，使用策略模式和lamda函数式优化v1版本的代码
 # 题目1：
 
       For a given string that only contains alphabet characters a-z, if 3 or more consecutive
