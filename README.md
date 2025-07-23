@@ -20,6 +20,7 @@ StringProcessorOneTest.testOneProcess #题目一解法
 
 
 #题目二
+
     Instead of removing the consecutively identical characters, replace them with a
     single character that comes before it alphabetically.
     Example:
