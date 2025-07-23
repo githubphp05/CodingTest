@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="511340f1-6c4a-4e48-8c97-d1a907f80b9b" name="Default Changelist" comment="" />
+    <list default="true" id="511340f1-6c4a-4e48-8c97-d1a907f80b9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CrushStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IterativeCrushStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IterativeStringProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StringProcessorOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StringProcessorTwoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/OneCodingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TwoCodingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/codingTest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/OneCodingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/TwoCodingTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +28,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CodingTest" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -32,6 +51,7 @@
     </option>
   </component>
   <component name="ProjectId" id="30ESE16dnEPz9OruaoK3MiPGDp0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,51 +59,34 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Drivers\codingTest\src\main" />
+      <recent name="D:\Drivers\codingTest\src\main\java\org\example" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TwoCodingTest">
-    <configuration name="OneCodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.OneCodingTest" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoCodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TwoCodingTest" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringProcessorOneTest.testOneProcess">
     <configuration name="OneCodingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codingTest" />
       <extension name="coverage">
@@ -99,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneCodingTest.OneCodingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OneCodingTest.oneCodingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +112,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.OneCodingTest" />
-      <option name="METHOD_NAME" value="OneCodingTest" />
+      <option name="METHOD_NAME" value="oneCodingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringProcessorOneTest.testOneProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StringProcessorOneTest" />
+      <option name="METHOD_NAME" value="testOneProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringProcessorOneTest.testProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StringProcessorOneTest" />
+      <option name="METHOD_NAME" value="testProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringProcessorTwoTest.testTwoProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StringProcessorTwoTest" />
+      <option name="METHOD_NAME" value="testTwoProcess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,9 +168,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoCodingTest" />
-        <item itemvalue="Application.OneCodingTest" />
-        <item itemvalue="JUnit.OneCodingTest.OneCodingTest" />
+        <item itemvalue="JUnit.StringProcessorOneTest.testOneProcess" />
+        <item itemvalue="JUnit.StringProcessorTwoTest.testTwoProcess" />
+        <item itemvalue="JUnit.StringProcessorOneTest.testProcess" />
+        <item itemvalue="JUnit.OneCodingTest.oneCodingTest" />
         <item itemvalue="JUnit.OneCodingTest" />
       </list>
     </recent_temporary>
@@ -134,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753191123596</updated>
-      <workItem from="1753191126289" duration="1752000" />
+      <workItem from="1753191126289" duration="11959000" />
     </task>
     <servers />
   </component>
@@ -142,45 +194,58 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1753276546950">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1753276546950" />
+    <state x="548" y="267" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1753274396544">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="548" y="267" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1753274396544" />
     <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1753193072062">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1753193072062" />
-    <state width="1493" height="359" key="GridCell.Tab.0.bottom" timestamp="1753192890641">
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1753279979163">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="359" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753192890641" />
-    <state width="1493" height="359" key="GridCell.Tab.0.center" timestamp="1753192890641">
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753279979163" />
+    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1753279979162">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="359" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1753192890641" />
-    <state width="1493" height="359" key="GridCell.Tab.0.left" timestamp="1753192890640">
+    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1753279979162" />
+    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1753279979162">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="359" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1753192890640" />
-    <state width="1493" height="359" key="GridCell.Tab.0.right" timestamp="1753192890641">
+    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1753279979162" />
+    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1753279979162">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="359" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1753192890641" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1753191801782">
+    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1753279979162" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1753277789157">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753191801782" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1753191801782">
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753277789157" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1753277789156">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1753191801782" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1753191801782">
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1753277789156" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1753277789156">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1753191801782" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1753191801782">
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1753277789156" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1753277789157">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1753191801782" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1753191581217">
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1753277789157" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1753277304909">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1753191581217" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1753277304909" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/codingTest$OneCodingTest.ic" NAME="OneCodingTest Coverage Results" MODIFIED="1753274208939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>

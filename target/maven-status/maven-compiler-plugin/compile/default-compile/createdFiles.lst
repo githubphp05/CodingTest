@@ -1,0 +1,5 @@
+org\example\IterativeStringProcessor.class
+org\example\CrushStrategy.class
+org\example\IterativeStringProcessor$ReplacementRule.class
+org\example\StringProcessor.class
+org\example\IterativeCrushStrategy.class

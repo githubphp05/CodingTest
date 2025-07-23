@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+codingTest,org.example,IterativeStringProcessor.ReplacementRule,0,16,0,2,0,2,0,3,0,2
+codingTest,org.example,IterativeCrushStrategy,0,77,0,10,0,21,0,7,0,2
+codingTest,org.example,IterativeStringProcessor,0,140,1,15,0,29,1,9,0,2
