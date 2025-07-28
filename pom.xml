@@ -7,8 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <build>
     <plugins>
-
-      <!-- 测试插件 -->
+      <!-- Test plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -26,7 +25,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.7</version> <!-- 这是截止到我知识更新日期的最新版本，你可以检查是否有更新 -->
+        <version>0.8.7</version>
         <executions>
           <execution>
             <goals>
@@ -55,7 +54,7 @@
   </properties>
 
   <dependencies>
-    <!-- JUnit 5 依赖 -->
+    <!-- JUnit 5 -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
@@ -66,7 +65,7 @@
     <dependency>
       <groupId>org.junit.platform</groupId>
       <artifactId>junit-platform-launcher</artifactId>
-      <version>1.9.2</version> <!-- 与报错版本一致 -->
+      <version>1.9.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>

@@ -1,11 +1,10 @@
-需求:
-1. 结构良好的 Maven 项目
-2. 适当的单元测试，具有较高的测试覆盖率
-3. 考虑采用适当的设计模式
-5. 使用 Java8 或更高版本的一些新功能
+Requirements:
+1. Well-structured Maven project
+2. Proper unit testing with high test coverage
+3. Consider adopting appropriate design patterns
+5. Use some new features of Java 8 or higher
 
-本项目有两个版本代码v1和v2，v2版本的代码量更少，使用策略模式和lamda函数式优化v1版本的代码
-# 题目1：
+# Question 1：
 
       For a given string that only contains alphabet characters a-z, if 3 or more consecutive
       characters are identical, remove them from the string. Repeat this process until
@@ -17,10 +16,10 @@
       -> aaad
       -> d
 
-StringProcessorOneTest.testOneProcess #题目一解法
 
 
-#题目二
+
+#Question 2：
 
     Instead of removing the consecutively identical characters, replace them with a
     single character that comes before it alphabetically.
@@ -33,4 +32,3 @@ StringProcessorOneTest.testOneProcess #题目一解法
     -> aaad, bbb is replaced by a
     -> d
     
- StringProcessorTwoTest.testTwoProcess #题目二解法

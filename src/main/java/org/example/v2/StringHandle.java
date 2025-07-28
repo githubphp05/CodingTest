@@ -2,40 +2,14 @@ package org.example.v2;
 import java.util.function.Consumer;
 public class StringHandle {
 
-    // 定义策略结果记录类
-    private static class StrategyResult {
-        private final String newString;
-        private final boolean changed;
-
-        public StrategyResult(String newString, boolean changed) {
-            this.newString = newString;
-            this.changed = changed;
-        }
-
-        public String newString() {
-            return newString;
-        }
-
-        public boolean changed() {
-            return changed;
-        }
-    }
-
-    // 策略接口
-    @FunctionalInterface
-    private interface ProcessingStrategy {
-        StrategyResult processSegment(String current, int start, int end, Consumer<String> output);
-    }
-
-
-    // 策略1: 直接删除连续字符
+    // Strategy 1: Delete consecutive characters directly
     private static final ProcessingStrategy REMOVE_STRATEGY = (current, start, end, output) -> {
         String newString = new StringBuilder(current).delete(start, end).toString();
         output.accept("-> " + newString);
         return new StrategyResult(newString, true);
     };
 
-    // 策略2: 删除后插入前一个字符
+    // Strategy 2: Delete and then insert the previous character
     private static final ProcessingStrategy REPLACE_STRATEGY = (current, start, end, output) -> {
         StringBuilder sb = new StringBuilder(current);
         sb.delete(start, end);
@@ -53,7 +27,7 @@ public class StringHandle {
         return new StrategyResult(newString, true);
     };
 
-    // 主处理方法
+    // Main processing method
     public void process(String input, Consumer<String> output, int strategyType) {
         ProcessingStrategy strategy = (strategyType == 1) ? REMOVE_STRATEGY : REPLACE_STRATEGY;
         String current = input;
@@ -74,7 +48,7 @@ public class StringHandle {
                     StrategyResult result = strategy.processSegment(current, start, i, output);
                     current = result.newString();
                     changed = result.changed();
-                    break; // 重新开始扫描
+                    break; // Restart Scan
                 }
             }
         } while (changed);

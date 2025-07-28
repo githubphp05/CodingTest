@@ -1,7 +1,3 @@
-org\example\v1\StringHandle$StrategyResult.class
-org\example\v1\IterativeCrushStrategy.class
-org\example\v1\StringHandle$ProcessingStrategy.class
-org\example\v1\StringHandle.class
-org\example\v1\CrushStrategy.class
-org\example\v1\IterativeStringProcessor.class
-org\example\v2\StringProcessor.class
+org\example\v2\StringHandle.class
+org\example\v2\StrategyResult.class
+org\example\v2\ProcessingStrategy.class

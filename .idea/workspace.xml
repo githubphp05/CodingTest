@@ -2,18 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="511340f1-6c4a-4e48-8c97-d1a907f80b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/v1/StringHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/v2/StringProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/v2/ProcessingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/v2/StrategyResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CrushStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/v1/CrushStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IterativeCrushStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/v1/IterativeCrushStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IterativeStringProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/v1/IterativeStringProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/v2/StringProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringProcessorOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/v1/StringProcessorOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringProcessorTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/v1/StringProcessorTwoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IterativeCrushStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IterativeCrushStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IterativeStringProcessor$ReplacementRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/IterativeStringProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/IterativeStringProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/v1/CrushStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/v1/IterativeCrushStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/v1/IterativeStringProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/v1/StringProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/v2/StringHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/v2/StringHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/v1/StringProcessorOneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/v1/StringProcessorTwoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/v2/StringProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/v2/StringProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/v1/CrushStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/v1/IterativeCrushStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/v1/IterativeStringProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/v1/StringHandle$ProcessingStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/v1/StringHandle$StrategyResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/v1/StringHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/v2/StringProcessor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -23,25 +32,25 @@
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeCrushStrategy.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeCrushStrategy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeCrushStrategy.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeCrushStrategy.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeStringProcessor$ReplacementRule.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeStringProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeStringProcessor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeStringProcessor.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/IterativeStringProcessor.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-07-23T21-19-33_405.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.OneCodingTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.StringProcessorOneTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.StringProcessorOneTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.StringProcessorTwoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.StringProcessorTwoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.TwoCodingTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.OneCodingTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.StringProcessorOneTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.StringProcessorOneTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.StringProcessorTwoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.StringProcessorTwoTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.TwoCodingTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/codingTest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/StringProcessorOneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/StringProcessorOneTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/StringProcessorTwoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/StringProcessorTwoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.v1/IterativeCrushStrategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.v1/IterativeCrushStrategy.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.v1/IterativeStringProcessor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.v1/IterativeStringProcessor.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.v1/StringHandle$StrategyResult.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.v1/StringHandle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.v1/StringHandle.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.v1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.v1/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-07-23T23-24-39_534.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.v1.StringProcessorOneTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.v1.StringProcessorTwoTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.v2.StringProcessorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.v2.StringProcessorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.v1.StringProcessorOneTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.v1.StringProcessorTwoTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.v2.StringProcessorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.v2.StringProcessorTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/v1/StringProcessorOneTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/v1/StringProcessorTwoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/v2/StringProcessorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/v2/StringProcessorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +94,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -111,7 +120,20 @@
       <recent name="D:\Drivers\codingTest\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringProcessorTest.testReplaceStrategy">
+  <component name="RunManager" selected="JUnit.StringProcessorTest.testRemoveStrategy">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Test" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringProcessorOneTest.testOneProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codingTest" />
       <extension name="coverage">
@@ -160,22 +182,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringProcessorTwoTest.testOneProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.v1.StringProcessorTwoTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.v1" />
-      <option name="MAIN_CLASS_NAME" value="org.example.v1.StringProcessorTwoTest" />
-      <option name="METHOD_NAME" value="testOneProcess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringProcessorTwoTest.testTwoProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codingTest" />
       <extension name="coverage">
@@ -194,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringProcessorTest.testReplaceStrategy" />
         <item itemvalue="JUnit.StringProcessorTest.testRemoveStrategy" />
+        <item itemvalue="JUnit.StringProcessorTest.testReplaceStrategy" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.StringProcessorTwoTest.testTwoProcess" />
         <item itemvalue="JUnit.StringProcessorOneTest.testOneProcess" />
-        <item itemvalue="JUnit.StringProcessorTwoTest.testOneProcess" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +218,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753191123596</updated>
-      <workItem from="1753191126289" duration="15983000" />
+      <workItem from="1753191126289" duration="16423000" />
+      <workItem from="1753329728030" duration="7734000" />
+      <workItem from="1753709235969" duration="3209000" />
     </task>
     <servers />
   </component>
@@ -232,50 +240,58 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1753283135013" />
+    <state x="499" y="155" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1753343573807">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="499" y="155" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.816@0.0.1536.816" timestamp="1753343573807" />
+    <state x="524" y="110" key="#xdebugger.evaluate" timestamp="1753340523013">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="524" y="110" key="#xdebugger.evaluate/0.0.1536.816@0.0.1536.816" timestamp="1753340523013" />
     <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1753193072062">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1753193072062" />
-    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1753283958245">
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1753711942617">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753283958245" />
-    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1753283958245">
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753711942617" />
+    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1753711942617">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1753283958245" />
-    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1753283958244">
+    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1753711942617" />
+    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1753711942617">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1753283958244" />
-    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1753283958245">
+    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1753711942617" />
+    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1753711942617">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1753283958245" />
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1753282156484">
+    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1753711942617" />
+    <state width="1493" height="205" key="GridCell.Tab.1.bottom" timestamp="1753711810381">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753282156484" />
-    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1753282156484">
+    <state width="1493" height="205" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1753711810381" />
+    <state width="1493" height="205" key="GridCell.Tab.1.center" timestamp="1753711810381">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1753282156484" />
-    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1753282156484">
+    <state width="1493" height="205" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1753711810381" />
+    <state width="1493" height="205" key="GridCell.Tab.1.left" timestamp="1753711810381">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1753282156484" />
-    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1753282156484">
+    <state width="1493" height="205" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1753711810381" />
+    <state width="1493" height="205" key="GridCell.Tab.1.right" timestamp="1753711810381">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1753282156484" />
+    <state width="1493" height="205" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1753711810381" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1753277304909">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1753277304909" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1753280486335">
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1753329821274">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1753280486335" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1753329821274" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codingTest$OneCodingTest.ic" NAME="OneCodingTest Coverage Results" MODIFIED="1753274208939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
